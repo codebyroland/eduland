@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.logo a {
+    color: black;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Montagu Slab', serif;
+}
+
+.nav-links li a:hover {
+    color: coral;
+}
+
+.nav-links li {
+    padding: 0 20px;
+}
+
+.navbar-container button {
+    color: white;
+    padding: 20px;
+    border: none;
+    font-size: 15px;
+    background-color: black;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-container button:hover {
+    background-color: coral;
+}
+
+.hero {
+    min-height: 80vh;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 12%;
+    justify-content: space-between;
+}
+
+.hero img {
+    width: 600px;
+}
+
+.hero h1 {
+    font-size: 4.5rem;
+    line-height: 90px;
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.hero button {
+    color: white;
+    padding: 20px;
+    border: none;
+    font-size: 15px;
+    background-color: black;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero button:hover {
+    background-color: coral;
+}
+
+.welcome-page {
+    height: 80vh;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.welcome-page img {
+    width: 600px;
+}
+
+.welcome-page h1 {
+    font-size: 2.5rem;
+    line-height: 70px;
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.welcome-page p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.welcome-page button {
+    color: white;
+    padding: 20px;
+    border: none;
+    font-size: 15px;
+    background-color: black;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.welcome-page button:hover {
+    background-color: coral;
+}
+
+.departments-row{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.departments-row h1 {
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.departments {
+    height: 80vh;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.departmentss {
+    padding: 10px;
+}
+
+.departmentss h2 {
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Montagu Slab', serif;
+}
+
+.departmentss h3 {
+    font-size: 20px;
+    color:gray;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.departmentss p {
+    color: coral;
+    font-size: 20px;
+    font-family: 'Montagu Slab', serif;
+}
+
+.departments-row button{
+    margin: 0 auto;
+    color: white;
+    padding: 20px;
+    border: none;
+    font-size: 15px;
+    background-color: black;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.footer-list {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    height: 60vh;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+
+
+@media screen and (max-width: 320px){
+    .hero {
+        padding-top: 40%;
+        display: flex;
+        width: 100%;
+        justify-self: center;
+        flex-direction: column;
+        height: 100vh;
+        margin: 0 auto;
+    }
+
+    .hero h1 {
+        font-size: 6em;
+    }
+
+    .hero p {
+        font-size: 4em;
+    }
+
+    .welcome-page {
+        height: 100vh;
+    }
+}
